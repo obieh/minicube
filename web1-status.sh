@@ -1,0 +1,1 @@
+kubectl -n webapplication get pod web1  -o jsonpath={.status.phase}
